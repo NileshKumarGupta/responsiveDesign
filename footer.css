@@ -1,0 +1,68 @@
+footer {
+    width: 100%;
+    height: 20em;
+    background-color: #223547;
+    color: white;
+}
+
+footer #copyright {
+    width: 80vw;
+    margin: auto;
+    font-size: 1.2em;
+    padding: 2em 0em 1em 0em;
+    color: white;
+}
+
+footer #location {
+    width: 80vw;
+    margin: 0em auto 2em auto;
+    display: flex;
+    color: white;
+}
+
+footer #location a {
+    color: #1C77C3;
+    text-decoration: none;
+}
+
+footer #location .address {
+    flex: 1;
+    padding: 0.5em 0em;
+    margin: 0em 1em 0em 0em;
+    color: white;
+}
+
+footer #social {
+    width: 80vw;
+    margin: auto;
+}
+
+footer #social img {
+    float: right;
+    margin: 0.5em;
+    width: 2em;
+    height: 2em;
+}
+
+@media only screen and (max-width: 1200px) {
+    footer #social img{
+        margin: 0em;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    footer{
+        height: fit-content;
+        padding-bottom: 3em;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    footer{
+        height: 40em;
+    }
+    
+    footer #location{
+        flex-direction: column;
+    }
+}
