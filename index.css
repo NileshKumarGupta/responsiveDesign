@@ -1,0 +1,194 @@
+#impact {
+    width: 100%;
+    height: 40em;
+    background: url("images/impactBackground.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+}
+
+#twoColumn {
+    width: 80vw;
+    margin: -20em auto;
+    display: flex;
+}
+
+#twoColumn #leftText {
+    height: fit-content;
+    padding: 5em 0em;
+    flex: 5;
+    position: relative;
+}
+
+#twoColumn #leftText h1 {
+    font-size: 6em;
+    text-transform: lowercase;
+}
+
+#twoColumn #rightButton {
+    flex: 3;
+    position: relative;
+}
+
+#twoColumn #rightButton button {
+    position: absolute;
+    top: 40%;
+    bottom: 60%;
+    right: 50%;
+    left: 50%;
+    width: 40%;
+    height: 20%;
+    background-color: #1BD9C4;
+    border-radius: 0.5em;
+    font-size: 2.2em;
+    color: white;
+    font-weight: 300;
+}
+
+hr {
+    border-width: 0.23em;
+    border-color: #1BD9C4;
+    width: 45%;
+    position: absolute;
+    left: 0%;
+    right: 100%;
+    top: 80%;
+    bottom: 20%;
+}
+
+#headline {
+    width: 80vw;
+    margin: 16em auto 0em auto;
+}
+
+#headline p {
+    font-size: 2em;
+}
+
+#headline .imagesBox {
+    display: flex;
+}
+
+#headline .imagesBox img {
+    padding: 2.5em;
+    flex: 1;
+    height: auto;
+    width: 50%;
+}
+
+.blogs {
+    width: 80vw;
+    margin: 2em auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogs .individualBlog {
+    background-color: white;
+    flex: 1;
+    margin: 1em 1em;
+}
+
+.blogs .individualBlog img {
+    width: 100%;
+    height: auto;
+}
+
+.blogs .individualBlog h1 {
+    font-size: 1.8em;
+}
+
+.blogs .individualBlog p {
+    font-size: 1em;
+}
+
+#difference {
+    width: 80vw;
+    margin: 2em auto;
+}
+
+#difference .differenceCards {
+    background-color: white;
+    margin: 1.5em 0;
+    border: solid;
+    border-width: 0.05em;
+    border-color: #d6d6d6;
+    display: flex;
+}
+
+#difference .differenceCards .imgColumn {
+    flex: 3;
+    display: inline-block;
+}
+
+#difference .differenceCards .imgColumn img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+#difference .differenceCards .textColumn {
+    flex: 7;
+    margin: auto 2em;
+    padding-right: 10em;
+}
+
+#difference .differenceCards .textColumn h1 {
+    font-size: 2em;
+}
+
+#difference .differenceCards .textColumn p {
+    font-size: 1em;
+}
+
+#coreServicesHeading {
+    width: 80vw;
+    margin: 2em auto -1em auto;
+    color: #1BD9C4;
+    font-size: 2em;
+}
+
+#coreServices {
+    width: 80vw;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#coreServices .coreServicesContent {
+    padding: 1em;
+    margin: 0.5em 0em;
+}
+
+#coreServices .coreServicesContent h3 {
+    color: #1BD9C4;
+}
+
+#portfolio {
+    background-color: #094074;
+    width: 100%;
+    padding: 3em 0em;
+    color: white;
+    align-items: center;
+}
+
+#portfolio h4 {
+    width: 80vw;
+    margin: auto;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#portfolio h1 {
+    font-size: 3em;
+    width: 80vw;
+    margin: auto;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+#portfolio div {
+    width: 80vw;
+    margin: auto;
+}
