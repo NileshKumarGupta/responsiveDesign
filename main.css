@@ -16,3 +16,8 @@ body{
 .white{
     color: white;
 }
+
+textarea,
+input[type=text] {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

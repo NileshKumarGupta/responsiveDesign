@@ -192,3 +192,67 @@ hr {
     width: 80vw;
     margin: auto;
 }
+
+#contactUs{
+    background-color: #1C77C3;
+    padding: 3em;
+
+}
+
+#contactUs h4{
+    color: white;
+    width: 80vw;
+    margin: auto;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+#contactUs h1{
+    color: white;
+    width: 80vw;
+    margin: 0.5em auto;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+#contactUs form{
+    width: 80vw;
+    margin: auto;
+}
+
+#contactUs form input{
+    border: none;
+    margin: 1em 0em;
+    color: white;
+    width: 80vw;
+    font-size: 1em;
+    background: transparent;
+    border-bottom: solid;
+    border-color: white;
+    border-width: thin;
+}
+
+#contactUs form #detail{
+    width: 80vw;
+    margin: auto;
+    border: none;
+    font-size: 1em;
+    color: white;
+    background: transparent;
+    border-bottom: solid;
+    border-color: white;
+    border-width: thin;
+}
+
+#contactUs form button{
+    width: 80vw;
+    margin: 1em auto;
+    border: solid;
+    padding: 0.5em;
+    font-size: 1.5em;
+    background: transparent;
+    border-color: white;
+    border-width: thin;
+    text-transform: uppercase;
+    color: white;
+}
